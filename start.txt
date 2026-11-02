@@ -1,0 +1,12 @@
+ollama run qwen3:8B
+
+uvicorn main:app --reload --port 8000
+
+cd frontend
+npm start
+
+
+venv\Scripts\activate
+
+.venv\Scripts\activate
+
